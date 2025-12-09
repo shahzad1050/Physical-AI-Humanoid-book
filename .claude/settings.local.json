@@ -31,7 +31,9 @@
       "Bash(git push origin main)",
       "Bash(git checkout -b gh-pages)",
       "Bash(git push -u origin gh-pages)",
-      "Bash(git checkout main)"
+      "Bash(git checkout main)",
+      "Bash(npx serve build)",
+      "Bash(npm start -- --port 3001)"
     ],
     "deny": [],
     "ask": []
